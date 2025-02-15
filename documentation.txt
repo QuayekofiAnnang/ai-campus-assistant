@@ -1,0 +1,51 @@
+# AI Campus Assistant Project Structure and Setup
+
+# 1. Create the following folder structure manually or use these commands:
+
+# Create main project folder
+mkdir ai-campus-assistant
+cd ai-campus-assistant
+
+# Initialize Git repository
+git init
+
+# Create core folders
+mkdir assets templates src venv
+
+# Create subfolders
+mkdir assets/css assets/images
+
+# Create required files
+touch .gitignore README.md requirements.txt
+
+touch assets/css/superflex.css
+
+touch templates/index.html templates/dashboard.html templates/about.html
+
+touch src/app.py src/ai_assistant.py src/utils.py
+
+# Create virtual environment
+python -m venv venv
+
+# Add Python dependencies
+# Inside requirements.txt, add:
+# openai
+# flask
+
+# Activate the virtual environment
+# For PowerShell:
+# .\venv\Scripts\Activate
+
+# Install necessary libraries
+pip install openai flask
+
+# Add Superflex CDN in HTML files for styling.
+
+# After setting up, commit and push to GitHub
+# git add .
+# git commit -m "Initial project structure setup"
+# git branch -M main
+# git remote add origin <your-github-repo-url>
+# git push -u origin main
+
+# Ready for further development with GPT and Superflex! 🚀
